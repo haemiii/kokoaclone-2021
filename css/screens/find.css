@@ -26,10 +26,12 @@
 .open-chat__header span {
   opacity: 0.4;
 }
+
 .open-post {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 .open-post__title {
   font-weight: 600;

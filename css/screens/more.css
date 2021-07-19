@@ -1,6 +1,7 @@
 .more-screen .icon-row {
   margin-top: 35px;
 }
+
 .more-suggestions {
   margin-top: 50px;
   border-top: var(--main-border);
@@ -18,6 +19,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
@@ -31,4 +33,17 @@
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;
+}
+.more-suggestions__icon-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.more-blank {
+  width: 60px;
+  opacity: 0;
+}
+.more-suggestions__icon-text {
+  color: var(--grey-color);
 }
